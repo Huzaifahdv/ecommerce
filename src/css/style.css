@@ -711,6 +711,36 @@ h1.custom-heading {
 }
 
 
+/* 
+---------- Contact Page ----------
+*/
+
+.contact-info ul{
+    list-style: none;
+    padding-right: 0;
+}
+
+.contact-info ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info ul li address {
+    display: inline;
+}
+
+.contact-icon {
+    color: #f8ad47;
+}
+
+.contact-msg form textarea {
+    height: 155px;
+}
+
+.contact-msg form .button {
+    display: flex;
+    justify-content: end;
+}
 
 
 
