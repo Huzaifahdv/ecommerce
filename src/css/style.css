@@ -342,9 +342,12 @@ body {
     opacity: .6;
     border: none;
     height: 38px;
+    text-align: right;
 }
 
-
+input::placeholder { /* هذا من عندي*/
+    text-align: right;
+}
 
 .newsletter form button {
     border-radius: 0;
